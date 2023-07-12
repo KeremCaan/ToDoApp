@@ -9,23 +9,75 @@
 /* Begin PBXBuildFile section */
 		52EF48E428BAB1D700E99257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF48E328BAB1D700E99257 /* AppDelegate.swift */; };
 		52EF48E628BAB1D700E99257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF48E528BAB1D700E99257 /* SceneDelegate.swift */; };
-		52EF48E828BAB1D700E99257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF48E728BAB1D700E99257 /* ViewController.swift */; };
+		52EF48E828BAB1D700E99257 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF48E728BAB1D700E99257 /* AnasayfaVC.swift */; };
 		52EF48EB28BAB1D700E99257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EF48E928BAB1D700E99257 /* Main.storyboard */; };
 		52EF48EE28BAB1D700E99257 /* odev7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52EF48EC28BAB1D700E99257 /* odev7.xcdatamodeld */; };
 		52EF48F028BAB1D800E99257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EF48EF28BAB1D800E99257 /* Assets.xcassets */; };
 		52EF48F328BAB1D800E99257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EF48F128BAB1D800E99257 /* LaunchScreen.storyboard */; };
+		52EF490E28BAB6FF00E99257 /* IsKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF490D28BAB6FF00E99257 /* IsKayitVC.swift */; };
+		52EF491028BAB70A00E99257 /* IsDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF490F28BAB70A00E99257 /* IsDetayVC.swift */; };
+		52EF491228BAB7B500E99257 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491128BAB7B500E99257 /* AnasayfaPresenter.swift */; };
+		52EF491428BAB7E000E99257 /* AnasayfaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491328BAB7E000E99257 /* AnasayfaProtocol.swift */; };
+		52EF491628BAB86700E99257 /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491528BAB86700E99257 /* TableViewHucre.swift */; };
+		52EF491928BAB8E100E99257 /* Isler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491828BAB8E100E99257 /* Isler.swift */; };
+		52EF491B28BABABF00E99257 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491A28BABABF00E99257 /* AnasayfaInteractor.swift */; };
+		52EF492828BABAF200E99257 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EF491F28BABAF200E99257 /* FMDatabaseAdditions.m */; };
+		52EF492928BABAF200E99257 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492228BABAF200E99257 /* FMDatabasePool.m */; };
+		52EF492A28BABAF200E99257 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492328BABAF200E99257 /* FMResultSet.m */; };
+		52EF492B28BABAF200E99257 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492528BABAF200E99257 /* FMDatabase.m */; };
+		52EF492C28BABAF200E99257 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492728BABAF200E99257 /* FMDatabaseQueue.m */; };
+		52EF492E28BABBF300E99257 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492D28BABBF300E99257 /* AnasayfaRouter.swift */; };
+		52EF493028BABE4900E99257 /* IsKayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF492F28BABE4900E99257 /* IsKayitPresenter.swift */; };
+		52EF493228BABE6200E99257 /* IsKayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493128BABE6200E99257 /* IsKayitInteractor.swift */; };
+		52EF493428BABE6B00E99257 /* IsKayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493328BABE6B00E99257 /* IsKayitRouter.swift */; };
+		52EF493628BABE7B00E99257 /* IsKayitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493528BABE7B00E99257 /* IsKayitProtocol.swift */; };
+		52EF493828BAC00200E99257 /* IsDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493728BAC00200E99257 /* IsDetayPresenter.swift */; };
+		52EF493A28BAC00D00E99257 /* IsDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493928BAC00D00E99257 /* IsDetayInteractor.swift */; };
+		52EF493C28BAC01600E99257 /* IsDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493B28BAC01600E99257 /* IsDetayRouter.swift */; };
+		52EF493E28BAC02200E99257 /* IsDetayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF493D28BAC02200E99257 /* IsDetayProtocol.swift */; };
+		52EF494028BAC5E800E99257 /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 52EF493F28BAC5E800E99257 /* rehber.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52EF48E028BAB1D700E99257 /* odev7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odev7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF48E328BAB1D700E99257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EF48E528BAB1D700E99257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52EF48E728BAB1D700E99257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52EF48E728BAB1D700E99257 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		52EF48EA28BAB1D700E99257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EF48ED28BAB1D700E99257 /* odev7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = odev7.xcdatamodel; sourceTree = "<group>"; };
 		52EF48EF28BAB1D800E99257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EF48F228BAB1D800E99257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EF48F428BAB1D800E99257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EF490D28BAB6FF00E99257 /* IsKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKayitVC.swift; sourceTree = "<group>"; };
+		52EF490F28BAB70A00E99257 /* IsDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDetayVC.swift; sourceTree = "<group>"; };
+		52EF491128BAB7B500E99257 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		52EF491328BAB7E000E99257 /* AnasayfaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocol.swift; sourceTree = "<group>"; };
+		52EF491528BAB86700E99257 /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
+		52EF491828BAB8E100E99257 /* Isler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Isler.swift; sourceTree = "<group>"; };
+		52EF491A28BABABF00E99257 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		52EF491C28BABAF100E99257 /* odev7-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "odev7-Bridging-Header.h"; sourceTree = "<group>"; };
+		52EF491D28BABAF200E99257 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		52EF491E28BABAF200E99257 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		52EF491F28BABAF200E99257 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		52EF492028BABAF200E99257 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		52EF492128BABAF200E99257 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		52EF492228BABAF200E99257 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		52EF492328BABAF200E99257 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		52EF492428BABAF200E99257 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		52EF492528BABAF200E99257 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		52EF492628BABAF200E99257 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		52EF492728BABAF200E99257 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		52EF492D28BABBF300E99257 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		52EF492F28BABE4900E99257 /* IsKayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKayitPresenter.swift; sourceTree = "<group>"; };
+		52EF493128BABE6200E99257 /* IsKayitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKayitInteractor.swift; sourceTree = "<group>"; };
+		52EF493328BABE6B00E99257 /* IsKayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKayitRouter.swift; sourceTree = "<group>"; };
+		52EF493528BABE7B00E99257 /* IsKayitProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKayitProtocol.swift; sourceTree = "<group>"; };
+		52EF493728BAC00200E99257 /* IsDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDetayPresenter.swift; sourceTree = "<group>"; };
+		52EF493928BAC00D00E99257 /* IsDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDetayInteractor.swift; sourceTree = "<group>"; };
+		52EF493B28BAC01600E99257 /* IsDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDetayRouter.swift; sourceTree = "<group>"; };
+		52EF493D28BAC02200E99257 /* IsDetayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDetayProtocol.swift; sourceTree = "<group>"; };
+		52EF493F28BAC5E800E99257 /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rehber.sqlite; sourceTree = "<group>"; };
+		52EF494228BAC66A00E99257 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +96,7 @@
 			children = (
 				52EF48E228BAB1D700E99257 /* odev7 */,
 				52EF48E128BAB1D700E99257 /* Products */,
+				52EF494128BAC66A00E99257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +113,211 @@
 			children = (
 				52EF48E328BAB1D700E99257 /* AppDelegate.swift */,
 				52EF48E528BAB1D700E99257 /* SceneDelegate.swift */,
-				52EF48E728BAB1D700E99257 /* ViewController.swift */,
+				52EF491728BAB8D900E99257 /* entity */,
+				52EF490228BAB63A00E99257 /* isdetay-module */,
+				52EF490128BAB61F00E99257 /* iskayit-module */,
+				52EF48FA28BAB27700E99257 /* anasayfa-module */,
 				52EF48E928BAB1D700E99257 /* Main.storyboard */,
 				52EF48EF28BAB1D800E99257 /* Assets.xcassets */,
 				52EF48F128BAB1D800E99257 /* LaunchScreen.storyboard */,
 				52EF48F428BAB1D800E99257 /* Info.plist */,
+				52EF493F28BAC5E800E99257 /* rehber.sqlite */,
 				52EF48EC28BAB1D700E99257 /* odev7.xcdatamodeld */,
+				52EF491E28BABAF200E99257 /* FMDatabase.h */,
+				52EF492528BABAF200E99257 /* FMDatabase.m */,
+				52EF492028BABAF200E99257 /* FMDatabaseAdditions.h */,
+				52EF491F28BABAF200E99257 /* FMDatabaseAdditions.m */,
+				52EF492128BABAF200E99257 /* FMDatabasePool.h */,
+				52EF492228BABAF200E99257 /* FMDatabasePool.m */,
+				52EF492628BABAF200E99257 /* FMDatabaseQueue.h */,
+				52EF492728BABAF200E99257 /* FMDatabaseQueue.m */,
+				52EF491D28BABAF200E99257 /* FMDB.h */,
+				52EF492428BABAF200E99257 /* FMResultSet.h */,
+				52EF492328BABAF200E99257 /* FMResultSet.m */,
+				52EF491C28BABAF100E99257 /* odev7-Bridging-Header.h */,
 			);
 			path = odev7;
+			sourceTree = "<group>";
+		};
+		52EF48FA28BAB27700E99257 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				52EF490028BAB30100E99257 /* tableview */,
+				52EF48FF28BAB2FA00E99257 /* protocols */,
+				52EF48FE28BAB2DA00E99257 /* router */,
+				52EF48FD28BAB2D500E99257 /* interactor */,
+				52EF48FC28BAB2CF00E99257 /* presenter */,
+				52EF48FB28BAB2C600E99257 /* view */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		52EF48FB28BAB2C600E99257 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				52EF48E728BAB1D700E99257 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		52EF48FC28BAB2CF00E99257 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				52EF491128BAB7B500E99257 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		52EF48FD28BAB2D500E99257 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				52EF491A28BABABF00E99257 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		52EF48FE28BAB2DA00E99257 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				52EF492D28BABBF300E99257 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		52EF48FF28BAB2FA00E99257 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				52EF491328BAB7E000E99257 /* AnasayfaProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		52EF490028BAB30100E99257 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				52EF491528BAB86700E99257 /* TableViewHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		52EF490128BAB61F00E99257 /* iskayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				52EF490728BAB69F00E99257 /* protocols */,
+				52EF490628BAB69B00E99257 /* router */,
+				52EF490528BAB69600E99257 /* interactor */,
+				52EF490428BAB69100E99257 /* presenter */,
+				52EF490328BAB68C00E99257 /* view */,
+			);
+			path = "iskayit-module";
+			sourceTree = "<group>";
+		};
+		52EF490228BAB63A00E99257 /* isdetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				52EF490C28BAB6B700E99257 /* protocols */,
+				52EF490B28BAB6B200E99257 /* router */,
+				52EF490A28BAB6AE00E99257 /* interactor */,
+				52EF490928BAB6A900E99257 /* presenter */,
+				52EF490828BAB6A400E99257 /* view */,
+			);
+			path = "isdetay-module";
+			sourceTree = "<group>";
+		};
+		52EF490328BAB68C00E99257 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				52EF490D28BAB6FF00E99257 /* IsKayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		52EF490428BAB69100E99257 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				52EF492F28BABE4900E99257 /* IsKayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		52EF490528BAB69600E99257 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493128BABE6200E99257 /* IsKayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		52EF490628BAB69B00E99257 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493328BABE6B00E99257 /* IsKayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		52EF490728BAB69F00E99257 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493528BABE7B00E99257 /* IsKayitProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		52EF490828BAB6A400E99257 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				52EF490F28BAB70A00E99257 /* IsDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		52EF490928BAB6A900E99257 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493728BAC00200E99257 /* IsDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		52EF490A28BAB6AE00E99257 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493928BAC00D00E99257 /* IsDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		52EF490B28BAB6B200E99257 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493B28BAC01600E99257 /* IsDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		52EF490C28BAB6B700E99257 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				52EF493D28BAC02200E99257 /* IsDetayProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		52EF491728BAB8D900E99257 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				52EF491828BAB8E100E99257 /* Isler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		52EF494128BAC66A00E99257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EF494228BAC66A00E99257 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +352,7 @@
 				TargetAttributes = {
 					52EF48DF28BAB1D700E99257 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -129,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52EF48F328BAB1D800E99257 /* LaunchScreen.storyboard in Resources */,
+				52EF494028BAC5E800E99257 /* rehber.sqlite in Resources */,
 				52EF48F028BAB1D800E99257 /* Assets.xcassets in Resources */,
 				52EF48EB28BAB1D700E99257 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +393,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EF48E828BAB1D700E99257 /* ViewController.swift in Sources */,
+				52EF491228BAB7B500E99257 /* AnasayfaPresenter.swift in Sources */,
+				52EF493628BABE7B00E99257 /* IsKayitProtocol.swift in Sources */,
+				52EF491028BAB70A00E99257 /* IsDetayVC.swift in Sources */,
+				52EF492A28BABAF200E99257 /* FMResultSet.m in Sources */,
+				52EF492B28BABAF200E99257 /* FMDatabase.m in Sources */,
+				52EF492928BABAF200E99257 /* FMDatabasePool.m in Sources */,
+				52EF490E28BAB6FF00E99257 /* IsKayitVC.swift in Sources */,
+				52EF48E828BAB1D700E99257 /* AnasayfaVC.swift in Sources */,
+				52EF491B28BABABF00E99257 /* AnasayfaInteractor.swift in Sources */,
+				52EF491628BAB86700E99257 /* TableViewHucre.swift in Sources */,
+				52EF493C28BAC01600E99257 /* IsDetayRouter.swift in Sources */,
+				52EF493428BABE6B00E99257 /* IsKayitRouter.swift in Sources */,
+				52EF493E28BAC02200E99257 /* IsDetayProtocol.swift in Sources */,
+				52EF492C28BABAF200E99257 /* FMDatabaseQueue.m in Sources */,
 				52EF48E428BAB1D700E99257 /* AppDelegate.swift in Sources */,
+				52EF493028BABE4900E99257 /* IsKayitPresenter.swift in Sources */,
 				52EF48E628BAB1D700E99257 /* SceneDelegate.swift in Sources */,
+				52EF492E28BABBF300E99257 /* AnasayfaRouter.swift in Sources */,
 				52EF48EE28BAB1D700E99257 /* odev7.xcdatamodeld in Sources */,
+				52EF493A28BAC00D00E99257 /* IsDetayInteractor.swift in Sources */,
+				52EF493228BABE6200E99257 /* IsKayitInteractor.swift in Sources */,
+				52EF491428BAB7E000E99257 /* AnasayfaProtocol.swift in Sources */,
+				52EF491928BAB8E100E99257 /* Isler.swift in Sources */,
+				52EF493828BAC00200E99257 /* IsDetayPresenter.swift in Sources */,
+				52EF492828BABAF200E99257 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,6 +580,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.info.odev7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "odev7/odev7-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,6 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -333,6 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.info.odev7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "odev7/odev7-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
